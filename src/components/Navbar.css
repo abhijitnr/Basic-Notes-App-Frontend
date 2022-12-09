@@ -1,0 +1,107 @@
+/* Large Screeen */
+@media screen and (min-width: 1008px) {
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(134, 204, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+  }
+  .navbar_heading {
+    margin-left: 30px;
+  }
+  .app_logo {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .signup_login {
+    margin-right: 30px;
+    display: flex;
+    gap: 50px;
+  }
+  .signup_login_name {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+/* Medium Screen */
+@media screen and ((min-width: 641px) and (max-width: 1007px)) {
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(134, 204, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+  }
+  .navbar_heading {
+    margin-left: 30px;
+  }
+  .app_logo {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .signup_login {
+    margin-right: 30px;
+    display: flex;
+    gap: 50px;
+  }
+  .signup_login_name {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+/* Small Screen */
+@media screen and (max-width: 640px) {
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(134, 204, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+  }
+  .navbar_heading {
+    margin-left: 10px;
+  }
+  .app_logo {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .signup_login {
+    margin-right: 10px;
+    display: flex;
+    gap: 20px;
+  }
+  .signup_login_name {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+}
