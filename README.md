@@ -6,9 +6,9 @@
 - For backend just visit this link 👇👇👇
 - [Basic-Notes-App-Backend](https://github.com/abhijitnr/Basic-Notes-App-Backend)
 
-## Live link
+## Live link 👇👇👇
 
-- [MY NOTES APP]()
+- [MY NOTES APP](https://abhijit-basic-notes-app.netlify.app/)
 
 ## Folders and Files structure
 

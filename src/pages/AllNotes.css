@@ -21,8 +21,42 @@
 
 /* Medium Screen */
 @media screen and ((min-width: 641px) and (max-width: 1007px)) {
+  .allthe_notes {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .note_table {
+    width: 100%;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+  }
 }
 
 /* Small Screen */
 @media screen and (max-width: 640px) {
+  .allthe_notes {
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .note_table {
+    width: 70%;
+    margin: auto;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    text-align: center;
+  }
 }
