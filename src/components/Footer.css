@@ -1,0 +1,105 @@
+/* Large Screeen */
+@media screen and (min-width: 1008px) {
+  .footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(250, 162, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_media_icon {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .copyright {
+    margin-top: -10px;
+    color: black;
+  }
+}
+
+/* Medium Screen */
+@media screen and ((min-width: 641px) and (max-width: 1007px)) {
+  .footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(250, 162, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_media_icon {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .copyright {
+    margin-top: -10px;
+    color: black;
+  }
+}
+
+/* Small Screen */
+@media screen and (max-width: 640px) {
+  .footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(250, 162, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_media_icon {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .copyright {
+    margin-top: -10px;
+    color: black;
+    text-align: center;
+  }
+}

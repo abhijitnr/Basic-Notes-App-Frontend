@@ -7,6 +7,7 @@
     margin-top: 200px;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 50px;
   }
   .signup_heading {
     text-align: center;
@@ -40,6 +41,7 @@
     outline: none;
     background-color: rgb(5, 29, 29);
     color: white;
+    cursor: pointer;
   }
 }
 
@@ -52,6 +54,7 @@
     margin-top: 200px;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 50px;
   }
   .signup_heading {
     text-align: center;
@@ -85,6 +88,7 @@
     outline: none;
     background-color: rgb(5, 29, 29);
     color: white;
+    cursor: pointer;
   }
 }
 
@@ -97,6 +101,7 @@
     margin-top: 200px;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 50px;
   }
   .signup_heading {
     text-align: center;
@@ -131,5 +136,6 @@
     outline: none;
     background-color: rgb(5, 29, 29);
     color: white;
+    cursor: pointer;
   }
 }

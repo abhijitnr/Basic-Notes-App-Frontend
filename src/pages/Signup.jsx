@@ -21,11 +21,9 @@ const Signup = () => {
       },
     })
       .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        // localStorage.setItem("token", data.token)
-      })
       .catch((err) => console.log(err));
+
+    navigate("/login");
   };
 
   return (

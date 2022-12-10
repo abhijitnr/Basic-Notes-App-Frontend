@@ -1,9 +1,11 @@
 import "./Signup.css";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = () => {
     const payload = {
@@ -19,6 +21,10 @@ const Login = () => {
       },
     })
       .then((res) => res.json())
+      .then((data) => {
+        localStorage.setItem("token", data.token);
+        navigate("/");
+      })
       .catch((err) => console.log(err));
   };
 

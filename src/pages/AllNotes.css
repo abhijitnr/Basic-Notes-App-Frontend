@@ -1,0 +1,28 @@
+/* Large Screeen */
+@media screen and (min-width: 1008px) {
+  .allthe_notes {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  .note_table {
+    width: 100%;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* Medium Screen */
+@media screen and ((min-width: 641px) and (max-width: 1007px)) {
+}
+
+/* Small Screen */
+@media screen and (max-width: 640px) {
+}
