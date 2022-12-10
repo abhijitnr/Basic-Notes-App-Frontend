@@ -6,6 +6,10 @@
 - For backend just visit this link 👇👇👇
 - [Basic-Notes-App-Backend](https://github.com/abhijitnr/Basic-Notes-App-Backend)
 
+## Live link
+
+- [MY NOTES APP]()
+
 ## Folders and Files structure
 
 - ### public
@@ -72,6 +76,32 @@
 - npm install
 - npm start
 - now frontend is ready to use
+
+## Overview
+
+- ## Navbar and Home page
+
+  ![Navbar and Home page](./src/assets/navbar.png)
+
+- ## Footer
+
+  ![Footer](./src/assets/footer.png)
+
+- ## Signup
+
+  ![Signup](./src/assets/signup.png)
+
+- ## Login
+
+  ![Login](./src/assets/login.png)
+
+- ## Create Notes
+
+  ![Create](./src/assets/create.png)
+
+- ## All Notes
+
+  ![Notes](./src/assets/notes.png)
 
 ## <---------- Thanks for visit ---------->
 
